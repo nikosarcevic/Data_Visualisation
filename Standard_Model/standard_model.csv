@@ -1,0 +1,18 @@
+particle,symbol,cols,rows,generation,category,class,particle_type,mass,charge,spin,statistics,symbolgray,symbolwhite
+up,u,1,1,I,fermion,quark,Matter particle,≃ 2.2 MeV,⅔,½,Fermi–Dirac,https://mlwild.net/images/upquark-gray.svg,https://mlwild.net/images/upquark-white.svg
+charm,c,2,1,II,fermion,quark,Matter particle,≃ 1.28 GeV,⅔,½,Fermi–Dirac,https://mlwild.net/images/charmquark-gray.svg,https://mlwild.net/images/charmquark-white.svg
+top,t,3,1,III,fermion,quark,Matter particle,≃ 73.1 GeV,⅔,½,Fermi–Dirac,https://mlwild.net/images/topquark-gray.svg,https://mlwild.net/images/topquark-white.svg
+down,d,1,2,I,fermion,quark,Matter particle,≃ 4.7 MeV,-⅓,½,Fermi–Dirac,https://mlwild.net/images/downquark-gray.svg,https://mlwild.net/images/downquark-white.svg
+strange,s,2,2,II,fermion,quark,Matter particle,≃ 96 MeV,-⅓,½,Fermi–Dirac,https://mlwild.net/images/strangequark-gray.svg,https://mlwild.net/images/strangequark-white.svg
+bottom,b,3,2,III,fermion,quark,Matter particle,≃ 4.18 GeV,-⅓,½,Fermi–Dirac,https://mlwild.net/images/bottomquark-gray.svg,https://mlwild.net/images/bottomquark-white.svg
+electron,e,1,3,I,fermion,lepton,Matter particle,≃ 0.511 MeV,-1,½,Fermi–Dirac,https://mlwild.net/images/electron-gray.svg,https://mlwild.net/images/electron-white.svg
+muon,μ,2,3,II,fermion,lepton,Matter particle,≃ 105.66 MeV,-1,½,Fermi–Dirac,https://mlwild.net/images/muon-gray.svg,https://mlwild.net/images/muon-white.svg
+tauon,τ,3,3,III,fermion,lepton,Matter particle,≃ 1.7768 GeV,-1,½,Fermi–Dirac,https://mlwild.net/images/tauon-gray.svg,https://mlwild.net/images/tauon-white.svg
+electron neutrino,ν_e,1,4,I,fermion,lepton,Matter particle,< 1.0 eV,0,½,Fermi–Dirac,https://mlwild.net/images/eneutrino-gray.svg,https://mlwild.net/images/eneutrino-white.svg
+muon neutrino,ν_μ,2,4,II,fermion,lepton,Matter particle,< 0.17 MeV,0,½,Fermi–Dirac,https://mlwild.net/images/muneutrino-gray.svg,https://mlwild.net/images/muneutrino-white.svg
+tauon neutrino,ν_τ,3,4,III,fermion,lepton,Matter particle,< 18.2 MeV,0,½,Fermi–Dirac,https://mlwild.net/images/tauneutrino-gray.svg,https://mlwild.net/images/tauneutrino-white.svg
+gluon,g,4,1,vb,boson,vector boson,Force carrier,= 0 GeV,0,1,Bose-Einstein,https://mlwild.net/images/gluon-gray.svg,https://mlwild.net/images/gluon-white.svg
+photon,γ,4,2,vb,boson,vector boson,Force carrier,= 0 GeV,0,1,Bose-Einstein,https://mlwild.net/images/photon-gray.svg,https://mlwild.net/images/photon-white.svg
+Z boson,Z,4,3,vb,boson,vector boson,Force carrier,≃ 91.19 GeV,0,1,Bose-Einstein,https://mlwild.net/images/zboson-gray.svg,https://mlwild.net/images/zboson-white.svg
+W boson,W,4,4,vb,boson,vector boson,Force carrier,≃80.39 GeV,±1,1,Bose-Einstein,https://mlwild.net/images/wboson-gray.svg,https://mlwild.net/images/wboson-white.svg
+higgs,H,5,1,sb,boson,scalar boson,Scalar particle,≃124.97 GeV,0,0,Bose-Einstein,https://mlwild.net/images/higgs-gray.svg,https://mlwild.net/images/higgs-white.svg
