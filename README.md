@@ -1,6 +1,6 @@
 # Data Visualisation
 
-This is a repo with soem of my procrastination projects.
+This is a repo with some of my procrastination projects. We all have those so don't judge.
 
 ## Standard Model
 
