@@ -1,0 +1,47 @@
+country,capital,latitude,longitude,continent,area,population,pop_density,flag
+Albania,Tirana,41.328889,19.817778,Europe,"28,748.00","2,994,667.00",104.1,https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/42px-Flag_of_Albania.svg.png
+Andorra,Andorra la Vella,42.5,1.516667,Europe,468.00,"84,082.00",146.2,https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/43px-Flag_of_Andorra.svg.png
+Austria,Vienna,48.2083,16.3731,Europe,"83,858.00","8,217,280.00",97.9,https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/45px-Flag_of_Austria.svg.png
+Belarus,Minsk,53.916667,27.55,Europe,"207,600.00","9,434,000.00",45.4,https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/46px-Flag_of_Belarus.svg.png
+Belgium,Brussels,50.85,4.35,Europe,"30,510.00","10,431,477.00",341.9,https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/45px-Flag_of_Belgium_%28civil%29.svg.png
+Bosnia and Herzegovina,Sarajevo,43.8563,18.4131,Europe,"51,129.00","3,890,000.00",76,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/46px-Flag_of_Bosnia_and_Herzegovina.svg.png
+Bulgaria,Sofia,42.6975,23.3241,Europe,"110,910.00","7,093,635.00",63.9,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/46px-Flag_of_Bulgaria.svg.png
+Croatia,Zagreb,45.8,15.95,Europe,"56,542.00","4,290,612.00",75.8,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/46px-Flag_of_Croatia.svg.png
+Cyprus,Nicosia,35.1856,33.3823,Europe,"9,251.00","803,200.00",86.8,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/45px-Flag_of_Cyprus.svg.png
+Czech Republic,Prague,50.0833,14.4167,Europe,"78,866.00","10,190,213.00",129.2,https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/45px-Flag_of_the_Czech_Republic.svg.png
+Denmark,Copenhagen,55.676111,12.568333,Europe,"43,094.00","5,529,888.00",128.3,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/40px-Flag_of_Denmark.svg.png
+Estonia,Tallinn,59.437222,24.745,Europe,"45,226.00","1,282,963.00",28.3,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/46px-Flag_of_Estonia.svg.png
+Finland,Helsinki,60.170833,24.9375,Europe,"336,593.00","5,259,250.00",15.6,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/46px-Flag_of_Finland.svg.png
+France,Paris,48.8566,2.3522,Europe,"547,030.00","63,248,000.00",115.6,https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png
+Germany,Berlin,52.52,13.405,Europe,"357,021.00","81,440,000.00",228.1,https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png
+Greece,Athens,37.9794,23.7161,Europe,"131,940.00","10,760,136.00",81.5,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/45px-Flag_of_Greece.svg.png
+Hungary,Budapest,47.4983,19.0408,Europe,"93,030.00","9,976,062.00",107.2,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/46px-Flag_of_Hungary.svg.png
+Iceland,Reykjavík,64.1475,-21.935,Europe,"103,000.00","311,058.00",3,https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/42px-Flag_of_Iceland.svg.png
+Ireland,Dublin,53.3425,-6.2658,Europe,"70,280.00","4,581,269.00",65.1,https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/46px-Flag_of_Ireland.svg.png
+Italy,Rome,41.883333,12.5,Europe,"301,230.00","60,681,514.00",201.4,https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/45px-Flag_of_Italy.svg.png
+Kosovo,Pristina,42.666667,21.166667,Europe,"10,908.00","1,733,872.00",158.9,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/42px-Flag_of_Kosovo.svg.png
+Latvia,Riga,56.948889,24.106389,Europe,"64,589.00","2,204,708.00",34.1,https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/46px-Flag_of_Latvia.svg.png
+Liechtenstein,Vaduz,47.141,9.5209,Europe,160.00,"35,236.00",220.2,https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/46px-Flag_of_Liechtenstein.svg.png
+Lithuania,Vilnius,54.683333,25.283333,Europe,"65,200.00","3,207,100.00",49.1,https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/46px-Flag_of_Lithuania.svg.png
+Luxembourg,Luxembourg City,49.6116,6.1319,Europe,"2,586.00","503,302.00",194.6,https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/46px-Flag_of_Luxembourg.svg.png
+Malta,Valletta,35.897778,14.5125,Europe,316.00,"408,333.00","1,292.10",https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/45px-Flag_of_Malta.svg.png
+Moldova,Chișinău,47.0105,28.8638,Europe,"33,843.00","3,560,400.00",105.2,https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/46px-Flag_of_Moldova.svg.png
+Monaco,Monaco,43.7384,7.4246,Europe,1.95,"30,539.00","15,661.00",https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/38px-Flag_of_Monaco.svg.png
+Montenegro,Podgorica,42.4304,19.2594,Europe,"13,812.00","625,266.00",45.2,https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/46px-Flag_of_Montenegro.svg.png
+Netherlands,Amsterdam,52.35,4.9166,Europe,"41,526.00","16,695,000.00",402,https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/45px-Flag_of_the_Netherlands.svg.png
+North Macedonia,Skopje,42,21.433333,Europe,"25,333.00","2,055,004.00",81.1,https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/46px-Flag_of_North_Macedonia.svg.png
+Norway,Oslo,59.913889,10.752222,Europe,"324,220.00","4,691,849.00",14.4,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/41px-Flag_of_Norway.svg.png
+Poland,Warsaw,52.2167,21.0333,Europe,"312,685.00","38,038,000.00",121.6,https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/46px-Flag_of_Poland.svg.png
+Portugal,Lisbon,38.7452,-9.1604,Europe,"91,568.00","10,555,853.00",115.2,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png
+Romania,Bucharest,44.4268,26.1025,Europe,"238,391.00","19,042,936.00",79.8,https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/45px-Flag_of_Romania.svg.png
+Russia,Moscow,55.7558,37.6178,Europe,"17,075,400.00","138,739,892.00",8.1,https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png
+San Marino,San Marino City,43.9424,12.4578,Europe,61.00,"31,817.00",521.5,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/40px-Flag_of_San_Marino.svg.png
+Serbia,Belgrade,44.7866,20.4489,Europe,"77,474.00","7,310,555.00",94.3,https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/45px-Flag_of_Serbia.svg.png
+Slovakia,Bratislava,48.1486,17.1077,Europe,"48,845.00","5,435,273.00",111.2,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/45px-Flag_of_Slovakia.svg.png
+Slovenia,Ljubljana,46.05,14.5167,Europe,"20,273.00","2,000,092.00",98.6,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/46px-Flag_of_Slovenia.svg.png
+Spain,Madrid,40.416667,-3.716667,Europe,"504,851.00","46,144,000.00",91.4,https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png
+Sweden,Stockholm,59.329444,18.068611,Europe,"449,964.00","9,088,728.00",20.1,https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/46px-Flag_of_Sweden.svg.png
+Switzerland,Bern,46.948056,7.4475,Europe,"41,290.00","7,639,961.00",185,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/32px-Flag_of_Switzerland.svg.png
+Ukraine,Kyiv,50.45,30.523333,Europe,"603,628.00","45,134,707.00",74.7,https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/45px-Flag_of_Ukraine.svg.png
+United Kingdom,London,51.5072,-0.1275,Europe,"244,820.00","62,300,000.00",254.4,https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/46px-Flag_of_the_United_Kingdom.svg.png
+Vatican City,Vatican City,41.9029,12.4534,Europe,0.44,800.00,"1,818.10",https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/32px-Flag_of_the_Vatican_City.svg.png
