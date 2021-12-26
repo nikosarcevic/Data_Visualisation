@@ -1,7 +1,6 @@
 # %%
 import numpy as np
 import streamlit as st
-import yaml
 from scipy import integrate
 
 def calculate_distance_modulus(d):
