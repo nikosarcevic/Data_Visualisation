@@ -103,10 +103,10 @@ def comoving_distance(z, H0=H0, ΩM=ΩM,
     return c0/H0*result
 
 
-sig_digits = float(st.text_input('Significant Digits', str(4)))
+sig_digits = int(st.text_input('Significant Digits', str(4)))
 distance_value = st.text_input('Distance') 
 if distance_value :
-    st.write('The distance modulus is:', round(calculate_distance_modulus(float(distance_value )), sig_digits), '[no units]')
+    st.write('The distance modulus is:', round( calculate_distance_modulus(float(distance_value)), sig_digits), '[no units]')
     
  
 z_value = st.text_input('Redshift')
