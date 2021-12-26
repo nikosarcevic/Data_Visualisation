@@ -27,7 +27,7 @@ st.sidebar.write(" ")
 
 
 
-sig_digits = int(st.sidebar.text_input('Significant Digits', str(4)))
+
 distance_value = st.sidebar.text_input('Distance') 
 
 z_value = st.sidebar.text_input('Redshift')
@@ -38,6 +38,7 @@ H0_value = st.sidebar.text_input('Hubble', str(H0))
 w0_value = st.sidebar.text_input('w0', str(w0))
 wa_value = st.sidebar.text_input('wa', str(wa))
 
+sig_digits = int(st.sidebar.text_input('Significant Digits', str(4)))
 
   
 
