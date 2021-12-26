@@ -24,8 +24,17 @@ with name:
 
 st.sidebar.write(" ")
 
-w0 = st.sidebar.text_input('w0', str(w0))
 
+
+
+sig_digits = int(st.sidebar.text_input('Significant Digits', str(4)))
+distance_value = st.sidebar.text_input('Distance') 
+
+z_value = st.sidebar.text_input('Redshift')
+H0_value = st.sidebar.text_input('Hubble', str(H0))
+ΩM_value = st.sidebar.text_input('Hubble', str(H0))
+
+w0_value = st.sidebar.text_input('w0', str(w0))
 
 
   
@@ -87,17 +96,14 @@ def comoving_distance(z, H0=H0, ΩM=ΩM,
     return c0/H0*result
 
 
-sig_digits = int(st.text_input('Significant Digits', str(4)))
-distance_value = st.text_input('Distance') 
+
 if distance_value :
     st.write('The distance modulus is:', round( calculate_distance_modulus(float(distance_value)), sig_digits), '[no units]')
     
  
-z_value = st.text_input('Redshift')
-hubble = st.text_input('Hubble', str(H0))
 
 if z_value:
-    st.write('comoving distance is:', round(comoving_distance(float(z_value), H0=float(hubble)), sig_digits), 'Mpc')
+    st.write('comoving distance is:', round(comoving_distance(float(z_value), H0=float(H0_value), ΩM=float(ΩM_value) ), sig_digits), 'Mpc')
     
 
                  
