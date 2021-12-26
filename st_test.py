@@ -26,7 +26,7 @@ H0=67
 ΩDE=0.68
 w0=-1.
 wa=0
-speed_of_light=3.0e+5
+speed_of_light=2.99792458e5
 
 def E_z(z, ΩM=ΩM, ΩDE=ΩDE, 
         ΩR=ΩR, w0=w0, wa=wa):
