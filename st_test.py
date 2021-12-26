@@ -62,7 +62,7 @@ z_value = st.text_input('Redshift')
 hubble = st.text_input('Hubble', '67')
 
 if z_value:
-    st.write('comoving distance is:', comoving_distance(float(z_value), H0=float(hubble)), 'blah')
+    st.write('comoving distance is:', comoving_distance(float(z_value, hubble), 'blah')
     
 
                  
