@@ -15,30 +15,9 @@ with name:
 
 st.sidebar.write(" ")
 
-def main():
-    """
-    Register pages to Explore and Fit:
-        page_introduction - contains page with images and brief explanations
-        page_explore - contains various functions that allows exploration of
-                        continuous distribution; plotting class and export
-        page_fit - contains various functions that allows user to upload
-                    their data as a .csv file and fit a distribution to data.
-    """
 
-    pages = {
-        "Introduction": page_introduction,
-        "Explore distributions": page_explore,
-        "Fit distributions": page_fit,
-    }
 
-    st.sidebar.title("Main options")
-
-    # Radio buttons to select desired option
-    page = st.sidebar.radio("Select:", tuple(pages.keys()))
-                                
-    # Display the selected page with the session state
-    pages[page]()
-
+  
 
 
     # Write About
@@ -51,7 +30,6 @@ def main():
                 repo, share it and feel free to open an issue if you find a bug 
                 or if you want some additional features.
                 """
-    )
 
 
 
