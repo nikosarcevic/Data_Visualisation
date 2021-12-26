@@ -3,14 +3,14 @@ import numpy as np
 import streamlit as st
 from scipy import integrate
 
-st.set_page_config(page_title='DistributionAnalyser')
+st.set_page_config(page_title='CosmoCalc')
 
-logo, name = st.sidebar.columns(2)
+logo, name = st.sidebar.columns(3)
 #with logo:
     #image = 'https://raw.githubusercontent.com/rdzudzar/DistributionAnalyser/main/images/logo_da.png?token=AIAWV2ZRCFKYM42DVFTD3OLAN3CQK'
     #st.image(image, use_column_width=True)
 with name:
-    st.markdown("<h1 style='text-align: left; color: grey;'> \
+    st.markdown("<h1 style='text-align: left; color: orange;'> \
                 CosmoCalc </h1>", unsafe_allow_html=True)
 
 st.sidebar.write(" ")
