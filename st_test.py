@@ -25,6 +25,6 @@ value = st.text_input('DISTANCE')
 
 
 if value:
-    st.write('distance modulus is:', calculate_distance_modulus(float(value)), '[no units]')
+    st.write('The distance modulus is:', calculate_distance_modulus(float(value)), '[no units]')
 
 
