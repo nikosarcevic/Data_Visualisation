@@ -32,7 +32,7 @@ distance_value = st.sidebar.text_input('Distance')
 
 z_value = st.sidebar.text_input('Redshift')
 H0_value = st.sidebar.text_input('Hubble', str(H0))
-ΩM_value = st.sidebar.text_input('Hubble', str(H0))
+ΩM_value = st.sidebar.text_input('Matter Density', str(ΩM))
 
 w0_value = st.sidebar.text_input('w0', str(w0))
 
