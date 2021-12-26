@@ -33,8 +33,10 @@ distance_value = st.sidebar.text_input('Distance')
 z_value = st.sidebar.text_input('Redshift')
 H0_value = st.sidebar.text_input('Hubble', str(H0))
 ΩM_value = st.sidebar.text_input('Matter Density', str(ΩM))
-
+ΩDE_value = st.sidebar.text_input('Dark Energy Density', str(ΩDE))
+ΩR_value = st.sidebar.text_input('Radiation Density', str(ΩR))
 w0_value = st.sidebar.text_input('w0', str(w0))
+wa_value = st.sidebar.text_input('wa', str(wa))
 
 
   
@@ -103,7 +105,7 @@ if distance_value :
  
 
 if z_value:
-    st.write('comoving distance is:', round(comoving_distance(float(z_value), H0=float(H0_value), ΩM=float(ΩM_value) ), sig_digits), 'Mpc')
+    st.write('comoving distance is:', round(comoving_distance(float(z_value), H0=float(H0_value), ΩM=float(ΩM_value), ΩDE=float(ΩDE_value), ΩR=float(ΩR_value), w0=float(w0_value) , wa=float(wa_value) ), sig_digits), 'Mpc')
     
 
                  
