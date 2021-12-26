@@ -3,6 +3,18 @@ import numpy as np
 import streamlit as st
 from scipy import integrate
 
+st.set_page_config(page_title='DistributionAnalyser')
+
+logo, name = st.sidebar.columns(2)
+#with logo:
+    #image = 'https://raw.githubusercontent.com/rdzudzar/DistributionAnalyser/main/images/logo_da.png?token=AIAWV2ZRCFKYM42DVFTD3OLAN3CQK'
+    #st.image(image, use_column_width=True)
+with name:
+    st.markdown("<h1 style='text-align: left; color: grey;'> \
+                CosmoCalc </h1>", unsafe_allow_html=True)
+
+st.sidebar.write(" ")
+
 
 def calculate_distance_modulus(d):
     '''
