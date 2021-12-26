@@ -22,9 +22,9 @@ def calculate_distance_modulus(d):
 
 
 value = st.text_input('distance', 'enter distance [in pc] here') 
-mu = calculate_distance_modulus(value)
+
 
 if value:
-    st.write(my_model.predict(value))
+    st.write(calculate_distance_modulus(value))
 
 
