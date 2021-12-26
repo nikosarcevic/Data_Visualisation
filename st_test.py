@@ -21,7 +21,7 @@ def calculate_distance_modulus(d):
 
 
 
-value = st.text_input('distance', 'enter distance [in pc] here') 
+value = st.text_input('distance') 
 
 
 if value:
