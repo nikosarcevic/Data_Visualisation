@@ -21,17 +21,24 @@ def calculate_distance_modulus(d):
     
     return mu
 
-def E_z(z, ΩM=constants['matter-density'], ΩDE=constants['DE-density'], 
-        ΩR=constants['rad-density'], w0=constants['w0'], wa=constants['wa']):
+H0=67
+ΩM=0.32
+ΩR=0
+ΩDE=0.68
+w0=-1.
+wa=0
+
+def E_z(z, ΩM=ΩM, ΩDE=ΩDE, 
+        ΩR=ΩR, w0=w0, wa=wa):
     """
     Method to compute the adimensional Hubble rate in the w0waCDm cosmology
     """
     ΩK = 1-ΩM-ΩDE-ΩR
     return np.sqrt(ΩM*(1+z)**3+ΩR*(1+z)**4+ΩDE*(1+z)**(3*(1+w0+wa))*np.exp(-3*wa*z/(1+z))+ΩK*(1+z)**2)
 
-def comoving_distance(z, H0=constants['Hubble0'], ΩM=constants['matter-density'], 
-                      ΩDE=constants['DE-density'], ΩR=constants['rad-density'], 
-                      w0=constants['w0'], wa=constants['wa']):
+def comoving_distance(z, H0=H0, ΩM=ΩM, 
+                      ΩDE=ΩDE, ΩR=ΩR, 
+                      w0=w0, wa=wa):
     """
     Method to compute the comoving distance
     """
