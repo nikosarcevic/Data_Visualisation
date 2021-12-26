@@ -103,16 +103,17 @@ def comoving_distance(z, H0=H0, ΩM=ΩM,
     return c0/H0*result
 
 
+sig_digits = float(st.text_input('Significant Digits', str(4)))
 distance_value = st.text_input('Distance') 
 if distance_value :
-    st.write('The distance modulus is:', calculate_distance_modulus(float(distance_value )), '[no units]')
+    st.write('The distance modulus is:', round(calculate_distance_modulus(float(distance_value )), sig_digits), '[no units]')
     
  
 z_value = st.text_input('Redshift')
 hubble = st.text_input('Hubble', str(H0))
 
 if z_value:
-    st.write('comoving distance is:', comoving_distance(float(z_value), H0=float(hubble)), 'Mpc')
+    st.write('comoving distance is:', round(comoving_distance(float(z_value), H0=float(hubble)), sig_digits), 'Mpc')
     
 
                  
