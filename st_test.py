@@ -3,6 +3,15 @@ import numpy as np
 import streamlit as st
 from scipy import integrate
 
+
+H0=67
+ΩM=0.32
+ΩR=0
+ΩDE=0.68
+w0=-1.
+wa=0
+speed_of_light=2.99792458e5
+
 st.set_page_config(page_title='CosmoCalc')
 
 logo, name = st.sidebar.columns(2)
@@ -14,6 +23,8 @@ with name:
                 CosmoCalc </h1>", unsafe_allow_html=True)
 
 st.sidebar.write(" ")
+
+w0 = st.sidebar.text_input('w0', str(w0))
 
 
 
@@ -50,13 +61,6 @@ def calculate_distance_modulus(d):
     
     return mu
 
-H0=67
-ΩM=0.32
-ΩR=0
-ΩDE=0.68
-w0=-1.
-wa=0
-speed_of_light=2.99792458e5
 
 def E_z(z, ΩM=ΩM, ΩDE=ΩDE, 
         ΩR=ΩR, w0=w0, wa=wa):
