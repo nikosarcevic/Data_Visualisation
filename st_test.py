@@ -20,9 +20,9 @@ st.sidebar.write(" ")
   
 
 
-    # Write About
-    st.sidebar.header("About")
-    st.sidebar.warning(
+# Write About
+st.sidebar.header("About")
+st.sidebar.warning(
                 """
                 CosmoCalc app is created and maintained by 
                 **Marko Bonici, Niko Sarcevic and Matthijs van der Wild**. If you like this app please star its
