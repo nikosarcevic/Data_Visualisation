@@ -26,7 +26,7 @@ H0=67
 ΩDE=0.68
 w0=-1.
 wa=0
-speed-of-light=3.0e+5
+speed_of_light=3.0e+5
 
 def E_z(z, ΩM=ΩM, ΩDE=ΩDE, 
         ΩR=ΩR, w0=w0, wa=wa):
@@ -49,7 +49,7 @@ def comoving_distance(z, H0=H0, ΩM=ΩM,
         result = np.vectorize(lambda x: integrate.quad(integrand, 0, x)[0])(z)
     else:
         raise TypeError(f'Expected "Union[float, np.ndarray]", got {type(z)}')
-    c0 = speed-of-light
+    c0 = speed_of_light
     return c0/H0*result
 
 
