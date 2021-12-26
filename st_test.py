@@ -3,6 +3,12 @@ import numpy as np
 import streamlit as st
 from scipy import integrate
 
+[
+theme
+]
+base="light"
+primaryColor="orange"
+
 def calculate_distance_modulus(d):
     '''
     Method to compute the distance modulus for a given distance.
