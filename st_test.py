@@ -58,11 +58,11 @@ if distance_value :
     st.write('The distance modulus is:', calculate_distance_modulus(float(distance_value )), '[no units]')
     
  
-z_value = st.text_input('Redshift')
-hubble = st.text_input('Hubble', '67')
+z_value = float(st.text_input('Redshift'))
+hubble = float(st.text_input('Hubble', str(H0)))
 
 if z_value:
-    st.write('comoving distance is:', comoving_distance(float(z_value, hubble), 'blah')
+    st.write('comoving distance is:', comoving_distance(z_value, H0=hubble, 'Mpc')
     
 
                  
